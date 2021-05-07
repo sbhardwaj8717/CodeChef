@@ -12,6 +12,7 @@ public class Solubility {
             int a = sc.nextInt();
             int b = sc.nextInt();
             
+            // LOGIC IS HERE
             int output = (a + (100-x)*b)*10;
             System.out.println(output);
         }

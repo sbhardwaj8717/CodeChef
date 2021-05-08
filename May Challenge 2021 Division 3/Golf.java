@@ -13,9 +13,9 @@ public class Golf {
 
         while(test-->0){
             String inStr[] = br.readLine().trim().split(" ");
-            long N =  Integer.parseInt(inStr[0]);
-            long x =  Integer.parseInt(inStr[1]);
-            long k =  Integer.parseInt(inStr[2]);
+            long N =  Long.parseLong(inStr[0]);
+            long x =  Long.parseLong(inStr[1]);
+            long k =  Long.parseLong(inStr[2]);
 
             // LOGIC IS HERE
             if( x%k==0 || (N + 1 - x)%k ==0){

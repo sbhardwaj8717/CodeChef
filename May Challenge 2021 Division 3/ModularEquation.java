@@ -13,10 +13,7 @@ public class ModularEquation {
             int N =  Integer.parseInt(inStr[0]);
             int M =  Integer.parseInt(inStr[1]);
             int count = N-1;
-            if (M%2 == N%2) {
-                count+=(N-1)/2;
-            }else
-            // int count =0;
+            
 
             for (int i = 2; i <= N; i++) {
                 for (int j = i+1; j <= N; j++) {
